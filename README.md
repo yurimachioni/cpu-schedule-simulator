@@ -1,6 +1,8 @@
 # cpu-schedule-simulator
 A simple real time process scheduling simulator, capable of simulating the Round Robin, Rate Monotonic and Earliest Deadline First scheduling policies.
 
+THIS WAS DONE AS AN UNDERGRAD DISCIPLINE PROJECT, YOU MAY USE AS YOU WANT BUT I DON'T GUARANTEE IT TO BE CORRECT AND TAKE NO RESPOSIBILITY FOR THE USE YOU MAKE OF THIS.
+
 This is a simple program made in Java with Swing whose objective is to simulate the scheduling of CPU time by a group of real time processes. It supports up to 6 processes, and takes as inputs the quantum (RR only), the time each process needs to do its task and the period at which the task must be done. The output is a table showing which process will be running in the CPU for each of the 50 first units of time, and the % of CPU load.
 
 Some links about RTCS:
